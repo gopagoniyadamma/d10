@@ -1,4 +1,0 @@
-my_module.sample_page
-  path: '/my-page'
-  defaults:
-    Controller: 

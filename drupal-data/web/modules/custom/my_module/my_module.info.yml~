@@ -1,4 +1,0 @@
-name: My Module
-desc: Example Codes of drupal 10
-type: module
-core_version_requirement: '>=10'

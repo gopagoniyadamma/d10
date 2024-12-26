@@ -1,6 +1,0 @@
-services:
- my_module_event_subscriber:
-   class: '\Drupal\my_module\EventSubscriber\NodeUpdateEventSubscriber'
-   tags:
-     - { name: event_subscriber }
-   
