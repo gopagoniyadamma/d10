@@ -11,4 +11,6 @@ namespace Drupal\my_module\Plugin\QueueWorker;
  * )
  */
 
-class ManualNodePublisher extends NodePublishBase {}
+class ManualNodePublisher extends NodePublishBase
+{
+}
