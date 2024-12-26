@@ -9,8 +9,6 @@
 *~
 drupal-data/.editorconfig
 drupal-data/.gitattributes
-drupal-data/composer.json
-drupal-data/composer.lock
 drupal-data/vendor/
 drupal-data/web/.csslintrc
 drupal-data/web/.eslintignore
