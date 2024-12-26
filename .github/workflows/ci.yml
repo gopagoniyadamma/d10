@@ -21,6 +21,6 @@ jobs:
       - name: Install frontend dependencies
         run: cd web/themes/imalabya && yarn install
       - name: Check coding standards for modules and theme
-        uses: docker://hussainweb/drupalqa:php7.4
+        uses: docker://hussainweb/drupalqa:php8.2
         with:
           args: phpcs --standard="Drupal,DrupalPractice" -n --extensions="php,module,install,theme" web/themes/imalabya web/modules/custom --ignore=web/themes/*/dist/,web/themes/*/Gulpfile.js,web/themes/*/node_modules/
