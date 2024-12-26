@@ -5,6 +5,37 @@
 # follows official upstream conventions:
 # https://www.drupal.org/docs/develop/using-composer
 
+
+*~
+drupal-data/.editorconfig
+drupal-data/.gitattributes
+drupal-data/composer.json
+drupal-data/composer.lock
+drupal-data/vendor/
+drupal-data/web/.csslintrc
+drupal-data/web/.eslintignore
+drupal-data/web/.eslintrc.json
+drupal-data/web/.ht.router.php
+drupal-data/web/.htaccess
+drupal-data/web/INSTALL.txt
+drupal-data/web/README.md
+drupal-data/web/autoload.php
+drupal-data/web/core/
+drupal-data/web/example.gitignore
+drupal-data/web/index.php
+drupal-data/web/modules/README.txt
+drupal-data/web/modules/contrib/
+drupal-data/web/profiles/
+drupal-data/web/robots.txt
+drupal-data/web/sites/
+drupal-data/web/themes/
+drupal-data/web/update.php
+drupal-data/web/web.config
+mariadb-data/
+
+
+
+
 # Ignore configuration files that may contain sensitive information
 /web/sites/*/*settings*.php
 /web/sites/*/*services*.yml
